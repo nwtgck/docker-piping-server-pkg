@@ -3,7 +3,7 @@ FROM --platform=linux/amd64 alpine:3.17.3 as download
 ARG TARGETPLATFORM
 
 ENV TINI_STATIC_VERSION=0.19.0
-ENV PIPING_SERVER_PKG_VERSION=1.12.9-1
+ENV PIPING_SERVER_PKG_VERSION=1.12.9-2
 
 RUN apk add --no-cache curl
 
